@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Rutas para la gestion de usuarios
+Route::group(['prefix' => 'web/vs1'], function () {
+    
+    require base_path('routes/web/hello_router.php');
+});
