@@ -169,6 +169,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Spatie\LaravelImageOptimizer\ImageOptimizerServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
     ])->toArray(),
 
     /*
@@ -185,6 +187,7 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
         'ImageOptimizer' => Spatie\LaravelImageOptimizer\ImageOptimizerFacade::class,
+        'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
     ])->toArray(),
 
 ];

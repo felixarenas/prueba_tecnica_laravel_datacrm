@@ -2,27 +2,26 @@
 <html lang="es-ES">
 
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://www.datacrm.com/front/images/favicon.ico">
     <title>Gestión comercial guía completa: ventajas y objetivos
     </title>
-    <meta name="description" content="Con esta guía completa de gestión comercial descubre claves, estrategias y técnicas para impulsar tus ventas y alcanzar el éxito empresarial.">
+    
 
     <meta property="og:locale" content="es_ES" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Gestión comercial guía completa: ventajas y objetivos" />
-    <meta property="og:description"
-        content="Con esta guía completa de gestión comercial descubre claves, estrategias y técnicas para impulsar tus ventas y alcanzar el éxito empresarial." />
+    <meta name="description" content="Con esta guía completa de gestión comercial descubre claves, estrategias y técnicas para impulsar tus ventas y alcanzar el éxito empresarial.">
+    <meta property="og:description" content="Con esta guía completa de gestión comercial descubre claves, estrategias y técnicas para impulsar tus ventas y alcanzar el éxito empresarial." />
     <meta property="og:url" content="https://www.datacrm.com/blog/" />
     <meta property="og:site_name" content="Gestión comercial guía completa: ventajas y objetivos" />
-    <meta property="og:image" content="https://www.datacrm.com/upload/article/b/que-es-gestion-comercial.webp" />
+    <meta property="og:image" content="{{ asset('img/que-es-gestion-comercial.webp') }}" />
     <meta property="og:image:alt" content="que-es-gestion-comercial">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Gestión comercial guía completa: ventajas y objetivos" />
-    <meta name="twitter:description"
-        content="Con esta guía completa de gestión comercial descubre claves, estrategias y técnicas para impulsar tus ventas y alcanzar el éxito empresarial." />
+    <meta name="twitter:description" content="Con esta guía completa de gestión comercial descubre claves, estrategias y técnicas para impulsar tus ventas y alcanzar el éxito empresarial." />
 
     <script type='application/ld+json'>
     {
@@ -51,30 +50,31 @@
 
 
     <!--CSS Gernerado para la prueba tecnica-->
-    <link href="{{ asset('css/body.css') }}" rel="stylesheet">
-
-    <link rel="preload" href="https://www.datacrm.com/css/main.min.css" as="style"
+    <link rel="preload" href="{{ asset('css/body.css') }}" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
 
+    <link rel="preload" href="{{ asset('css/main.min.css') }}" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
 
     <!--CSS Gernerado para la prueba tecnica-->
-    <link href="{{ asset('css/container.css') }}" rel="stylesheet">
-
-    <!--CSS Gernerado para la prueba tecnica-->
-    <link href="{{ asset('css/fontawesome.css') }}" rel="stylesheet">
-
-
-    <link href="https://www.datacrm.com/css/jquery-ui/jquery.ui.min.css" rel="preload" as="style"
+    <link rel="preload" href="{{ asset('css/container.css') }}" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
-    <link async rel="stylesheet" href="https://www.datacrm.com/css/fontawesome620.css" as="style"
+
+    <link href="{{ asset('css/jquery-ui.css') }}" rel="preload" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="stylesheet" href="https://www.datacrm.com/css/stylesblog.css" media="print" onload="this.media='all'">
+
+    <link async rel="stylesheet" href="{{ asset('css/fontawesome620.css') }}" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    
+    <link rel="stylesheet" href="{{ asset('css/stylesblog.css') }}" media="print" onload="this.media='all'">
     
     <!--CSS Gernerado para la prueba tecnica-->
-    <link href="{{ asset('css/myimgfluid.css') }}" rel="stylesheet">
+    <link rel="preload" href="{{ asset('css/myimgfluid.css') }}" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
 
     <!--CSS Gernerado para la prueba tecnica-->
-    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+    <link rel="preload" href="{{ asset('css/home.css') }}" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
 
 </head>
 
@@ -108,10 +108,10 @@
                     <a href="https://www.datacrm.com/">
                         <picture>
                             <source media="(min-width: 100px)"
-                                srcset="https://www.datacrm.com/front/images/Logodata_Horizontalblanco140x45.png"
+                                srcset="{{ asset('img/Logodata_Horizontalblanco140x45.png') }}"
                                 <source media="(min-width: 634px)"
-                                srcset="https://www.datacrm.com/front/images/Logodata_Horizontalblanco180x58.png">
-                            <img src="https://www.datacrm.com/front/images/Logodata_Horizontalblanco180x582.webp"
+                                srcset="{{ asset('img/Logodata_Horizontalblanco180x58.png') }}">
+                            <img src="{{ asset('img/Logodata_Horizontalblanco180x582.webp') }}"
                                 alt="DataCRM" width="60%" height="58" class="img-logo img-fluid" loading="lazy"
                                 style="margin-bottom: 10px !important;" />
                         </picture>
@@ -311,7 +311,7 @@
                         <a href="https://www.datacrm.com/blog">
                             <picture>
                                 <source type="image/webp"
-                                    srcset="https://www.datacrm.com/front/images/blog2/logo-blog.webp">
+                                    srcset="{{asset('img/logo-blog.webp')}}">
                                 <img src="{{asset('img/logo-blog.webp')}}"
                                     alt="Logo DataCRM blog" class="img-fluid" width="600" height="23" loading="lazy">
                             </picture>
@@ -1244,7 +1244,7 @@
                             </div>
                         </div>
                     </div>
-                    <script src="https://www.datacrm.com/vendors/sticky-sidebar-master/sticky-sidebar.min.js"
+                    <script src="{{asset('js/sticky-sidebar.min.js')}}"
                         loading="lazy"></script>
 
                     
@@ -1363,7 +1363,7 @@
                         <a href="https://www.datacrm.com/">
                             <picture>
                                 <source type="image/webp"
-                                    data-srcset="https://www.datacrm.com/front/images/Logodata_Horizontalblanco180x58.webp">
+                                    data-srcset="{{asset('img/Logodata_Horizontalblanco180x58.webp')}}">
                                 <img src="{{asset('img/Logodata_Horizontalblanco180x58.png')}}"
                                     alt="DataCRM" class="img-fluid w-100 img-footer-logo lazyload" loading="lazy"
                                     width="180" height="58">
@@ -1489,7 +1489,7 @@
                                 <a href="https://itunes.apple.com/us/app/datacrm/id1437186766?mt=8" target="_blank">
                                     <picture>
                                         <source type="image/webp"
-                                            data-srcset="https://www.datacrm.com/front/images/home/app_store_125x37.png">
+                                            data-srcset="{{asset('img/app_store_125x37.png')}}">
                                         <img src="{{asset('img/app_store_125x37.webp')}}"
                                             alt="Apple Store" width="125" height="37"
                                             class="effect-zoom mr-md-2 my-1 lazyload" loading="lazy">
@@ -1501,8 +1501,8 @@
                                     target="_blank">
                                     <picture>
                                         <source type="image/webp"
-                                            data-srcset="https://www.datacrm.com/front/images/home/play_store_125x37.png">
-                                        <img src="https://www.datacrm.com/front/images/home/play_store_125x37.webp"
+                                            data-srcset="{{asset('img/play_store_125x37.png')}}">
+                                        <img src="{{asset('img/play_store_125x37.webp')}}"
                                             alt="Play Store" width="125" height="37" class="effect-zoom lazyload"
                                             loading="lazy">
                                     </picture>
@@ -1520,8 +1520,8 @@
                         <div class="col-2 my-4" style="display: inline-flex;">
                             <picture>
                                 <source type="image/webp"
-                                    data-srcset="https://www.datacrm.com/front/images/Logodata_Horizontalblanco180x58.webp">
-                                <img src="https://www.datacrm.com/front/images/Logodata_Horizontalblanco180x58.png"
+                                    data-srcset="{{asset('img/Logodata_Horizontalblanco180x58.webp')}}">
+                                <img src="{{asset('img/Logodata_Horizontalblanco180x58.png')}}"
                                     alt="Logo Data CRM" width="180" height="58"
                                     class="img-fluid w-100 img-footer-logo lazyload" loading="lazy">
                             </picture>
@@ -1565,7 +1565,7 @@
                         <div class="col-12 my-4">
                             <picture>
                                 <source type="image/webp"
-                                    data-srcset="https://www.datacrm.com/front/images/Logodata_Horizontalblanco180x58.webp">
+                                    data-srcset="{{asset('img/Logodata_Horizontalblanco180x58.webp')}}">
                                 <img src="{{asset('img/Logodata_Horizontalblanco180x58.png')}}"
                                     alt="DataCRM" width="180" height="58"
                                     class="img-fluid w-100 img-footer-logo lazyload" loading="lazy">
@@ -2004,9 +2004,9 @@
                             <picture>
 
                                 <source media="(min-width: 321px)" type="image/webp"
-                                    srcset="https://www.datacrm.com/front/images/ya_tienes_una_cuenta600x539.webp">
+                                    srcset="{{asset('img/ya_tienes_una_cuenta600x539.webp')}}">
                                 <source media="(max-width: 320px)" type="image/webp"
-                                    srcset="https://www.datacrm.com/front/images/ya_tienes_una_cuenta320x287.webp">
+                                    srcset="{{asset('img/ya_tienes_una_cuenta320x287.webp')}}">
 
                                 <img src="{{asset('img/ya_tienes_una_cuenta600x539.webp')}}"
                                     alt="Ya tienes una cuenta con DataCRM" class="img-fluid" width="300" height="269"
@@ -2189,7 +2189,7 @@
         <link rel="stylesheet" href="https://www.datacrm.com/vendors/intl-tel-input-18.2.1/css/intlTelInput.min.css"
             async>
 
-        <script src="https://www.datacrm.com/vendors/intl-tel-input-18.2.1/js/intlTelInput.min.js" defer></script>
+        <script src="{{asset('js/intlTelInput.min.js')}}" defer></script>
         
         <!-- SEO -->
         <!-- <link href="https://www.datacrm.com/front/css/yosemodal.css" rel="stylesheet" type="text/css"/> -->
@@ -2256,13 +2256,17 @@
             </div>
         </div>
     </div>
-</body>
+
+    
+    
+    <!--JavaScript Gernerado para la prueba tecnica-->
+    <script defer src="{{ asset('js/jquery.min.js') }}"></script>
+
+    <!-- Agregar jQuery desde el CDN de Google -->
+    <script defer src="{{ asset('js/jquery-ui.min.js') }}"></script>
 
     <!--JavaScript Gernerado para la prueba tecnica-->
-    <script async src="{{ asset('js/JQuery.js') }}" type="text/javascript"></script>
-
-    <!--JavaScript Gernerado para la prueba tecnica-->
-    <script async src="{{ asset('js/datacrm.js') }}" type="text/javascript"></script>
+    <script defer src="{{ asset('js/datacrm.js') }}" type="text/javascript"></script>
 
     <!-- Google tag (gtag.js) -->
     <script>
@@ -2275,25 +2279,25 @@
     gtag('config', 'G-PVJNVD8TVN');
     </script>
 
-    <script type="lazy" src="https://www.datacrm.com/vendors/gtag/js.js?id=G-PVJNVD8TVN"></script>
+    <script defer type="lazy" src="{{ asset('js/js_name.js') }}"></script>
 
 
     <!-- RDStation -->
 
 
     <script type="lazy" defer
-        src="https://www.datacrm.com/vendors/rdstation/bdf94fe1-12bd-4f35-8989-1a189152cb58-loader.js?v=6326"></script>
+        src="{{ asset('js/bdf94fe1-12bd-4f35-8989-1a189152cb58-loader.js') }}"></script>
 
 
-    <script src="https://www.datacrm.com/front/js/owl.carousel.js?v=6326" defer></script>
-    <script src="https://www.datacrm.com/front/js/popper.min.1.11.0.js" defer></script>
-    <script src="https://www.datacrm.com/front/plugins/vendors/bootstrap.min.js" defer></script>
-    <script src="https://www.datacrm.com/front/plugins/all-functions.js" defer></script>
-    <script src="https://www.datacrm.com/front/js/cookies.js?v=6326" defer></script>
-    <script src="https://www.datacrm.com/front/js/lazyload.min.js?v=6326" defer></script>
-    <script src="https://www.datacrm.com/front/js/helper.js?v=6326" defer></script>
-    <script src="https://www.datacrm.com/front/js/main.home.js?v=6326" defer></script>
-    <script src="https://www.datacrm.com/front/js/create-demo3.js?v=6326" defer></script>
+    <script src="{{ asset('js/bdf94fe1-12bd-4f35-8989-1a189152cb58-loader_6326.js') }}" defer></script>
+    <script src="{{ asset('js/popper.min.1.11.0.js') }}" defer></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}" defer></script>
+    <script src="{{ asset('js/all-functions.js') }}" defer></script>
+    <script src="{{ asset('js/cookies.js') }}" defer></script>
+    <script src="{{ asset('js/lazyload.min.js') }}" defer></script>
+    <script src="{{ asset('js/helper.js') }}" defer></script>
+    <script src="{{ asset('js/main.home.js') }}" defer></script>
+    <script src="{{ asset('js/create-demo3.js') }}" defer></script>
 
     <!-- Whatsapp -->
     <script>
@@ -2305,20 +2309,21 @@
     </script>
     <script type="lazy" src="https://integraciones.datacrm.la/datacrm/whatsapp_button/wpp_button.min.js?v=6326" defer>
     </script>
-    <script src="https://www.datacrm.com/front/js/plans.home.js?v=6328" defer></script>
-    <script src="https://www.datacrm.com/front/js/modification.home.js?v=6328" defer></script>
+    <script src="{{ asset('js/plans.home.js') }}" defer></script>
+    <script src="{{ asset('js/modification.home.js') }}" defer></script>
 
     <!-- prueba mapa de calor orange -->
     <script defer src="https://tools.luckyorange.com/core/lo.js?site-id=90dbe6f8"></script>
-    <!-- Agregar jQuery desde el CDN de Google -->
-    <script src="https://www.datacrm.com/js/jquery-ui/jquery-ui.min.js"></script>
+    
     <script>
     window.addEventListener('load', function() {
         const styleSheet = document.createElement('link');
         styleSheet.rel = 'stylesheet';
-        styleSheet.href = 'https://www.datacrm.com/css/fontawesome620.css';
+        styleSheet.href = "{{ asset('css/fontawesome620.css') }}";
         document.head.appendChild(styleSheet);
     });
     </script>
+
+</body>
 
 </html>

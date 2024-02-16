@@ -73,20 +73,22 @@
     <!--CSS Gernerado para la prueba tecnica-->
     <link href="{{ asset('css/myimgfluid.css') }}" rel="stylesheet">
 
-    <!--CSS Gernerado para la prueba tecnica-->
-    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+    
 
 </head>
 
 <body>
     <h1>Hello Work!!!</h1>
-</body>
+
 
     <!--JavaScript Gernerado para la prueba tecnica-->
-    <script async src="{{ asset('js/JQuery.js') }}" type="text/javascript"></script>
+    <script defer src="{{ asset('js/JQuery.js') }}"></script>
+
+    <!-- Agregar jQuery desde el CDN de Google -->
+    <script defer src="https://www.datacrm.com/js/jquery-ui/jquery-ui.min.js"></script>
 
     <!--JavaScript Gernerado para la prueba tecnica-->
-    <script async src="{{ asset('js/datacrm.js') }}" type="text/javascript"></script>
+    <script defer src="{{ asset('js/datacrm.js') }}" type="text/javascript"></script>
 
     <!-- Google tag (gtag.js) -->
     <script>
@@ -99,7 +101,7 @@
     gtag('config', 'G-PVJNVD8TVN');
     </script>
 
-    <script type="lazy" src="https://www.datacrm.com/vendors/gtag/js.js?id=G-PVJNVD8TVN"></script>
+    <script defer type="lazy" src="https://www.datacrm.com/vendors/gtag/js.js?id=G-PVJNVD8TVN"></script>
 
 
     <!-- RDStation -->
@@ -134,8 +136,7 @@
 
     <!-- prueba mapa de calor orange -->
     <script defer src="https://tools.luckyorange.com/core/lo.js?site-id=90dbe6f8"></script>
-    <!-- Agregar jQuery desde el CDN de Google -->
-    <script src="https://www.datacrm.com/js/jquery-ui/jquery-ui.min.js"></script>
+    
     <script>
     window.addEventListener('load', function() {
         const styleSheet = document.createElement('link');
@@ -144,4 +145,7 @@
         document.head.appendChild(styleSheet);
     });
     </script>
+</body>
+
+    
 </html>
