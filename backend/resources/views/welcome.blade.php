@@ -2,63 +2,31 @@
 <html lang="es-ES">
 
 <head>
-<meta charset="utf-8">
-    <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Gestión comercial guía completa: ventajas y objetivos</title>
     <link rel="icon" href="https://www.datacrm.com/front/images/favicon.ico">
-    <title>Gestión comercial guía completa: ventajas y objetivos
-    </title>
-    
-
-    <meta property="og:locale" content="es_ES" />
-    <meta property="og:type" content="article" />
     <meta property="og:title" content="Gestión comercial guía completa: ventajas y objetivos" />
-    <meta name="description" content="Con esta guía completa de gestión comercial descubre claves, estrategias y técnicas para impulsar tus ventas y alcanzar el éxito empresarial.">
-    <meta property="og:description" content="Con esta guía completa de gestión comercial descubre claves, estrategias y técnicas para impulsar tus ventas y alcanzar el éxito empresarial." />
-    <meta property="og:url" content="https://www.datacrm.com/blog/" />
+    <meta name="keywords" content="guía completa de gestión comercial, descubre claves, estrategias y técnicas para impulsar tus ventas, alcanzar el éxito empresarial, Gestión comercial guía completa: ventajas y objetivos"/>
+    <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Gestión comercial guía completa: ventajas y objetivos" />
-    <meta property="og:image" content="{{ asset('img/que-es-gestion-comercial.webp') }}" />
-    <meta property="og:image:alt" content="que-es-gestion-comercial">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Gestión comercial guía completa: ventajas y objetivos" />
     <meta name="twitter:description" content="Con esta guía completa de gestión comercial descubre claves, estrategias y técnicas para impulsar tus ventas y alcanzar el éxito empresarial." />
+    <meta name="robots" content="index,nofollow" />
+    <meta http-equiv="cache-control" content="cache"/>
+    <meta http-equiv="expires" content="43200"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <script type='application/ld+json'>
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "WebSite",
-        "@id": "#website",
-        "url": "https:\/\/www.datacrm.com\/",
-        "name": "DATACRM",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https:\/\/www.datacrm.com\/?s={search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
-    }
-    </script>
-
-
-    <link rel="prefetch"
+    <link rel="dns-prefetch"
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&display=swap"
         as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript>
-        <link rel="prefetch"
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&display=swap"
-            rel="stylesheet" type="text/css" />
-    </noscript>
-
-
+   
     <!--CSS Gernerado para la prueba tecnica-->
     <link rel="preload" href="{{ asset('css/body.css') }}" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
 
-    <link rel="preload" href="{{ asset('css/main.min.css') }}" as="style"
-        onload="this.onload=null;this.rel='stylesheet'">
-
     <!--CSS Gernerado para la prueba tecnica-->
-    <link rel="preload" href="{{ asset('css/container.css') }}" as="style"
-        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ asset('css/main_container.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <link href="{{ asset('css/jquery-ui.css') }}" rel="preload" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
@@ -112,7 +80,7 @@
                                 <source media="(min-width: 634px)"
                                 srcset="{{ asset('img/Logodata_Horizontalblanco180x58.png') }}">
                             <img src="{{ asset('img/Logodata_Horizontalblanco180x582.webp') }}"
-                                alt="DataCRM" width="60%" height="58" class="img-logo img-fluid" loading="lazy"
+                                alt="DataCRM" width="60%" height="50px" class="img-logo img-fluid" loading="lazy"
                                 style="margin-bottom: 10px !important;" />
                         </picture>
                     </a>
@@ -203,7 +171,7 @@
                         <!-- <img src="https://www.datacrm.com/front/images/barswhite 44x34.webp" alt="barswhite" width="44" height="34"> -->
 
                         <img src="{{asset('img/barswhite66x49.webp')}}" class="img-fluid"
-                            alt="barswhite" width="46" height="29">
+                            alt="barswhite" width="46%" height="29%">
                     </button>
 
                     <div class=" d-none d-lg-block">
@@ -211,7 +179,7 @@
                             <picture>
                                 <!-- <source srcset="https://www.datacrm.com/front/images/Logodata_Horizontalblanco180x58.png"> -->
                                 <img src="{{asset('img/Logodata_Horizontalblanco180x58.webp')}}"
-                                    alt="DataCRM" width="180" height="58" class="img-logo" loading="lazy">
+                                    alt="DataCRM" width="180px" height="58px" class="img-logo" loading="lazy">
                             </picture>
                         </a>
                     </div>
@@ -219,7 +187,7 @@
                         <a href="https://www.datacrm.com/">
                             <picture>
                                 <img src="{{asset('img/Logodata_Horizontalblanco210x65.webp')}}"
-                                    alt="DataCRM" width="140" height="38" class="img-logo mt-2" loading="lazy"
+                                    alt="DataCRM" width="140px" height="38px" class="img-logo mt-2" loading="lazy"
                                     style="width: 120px !important;">
                             </picture>
                         </a>
@@ -301,9 +269,6 @@
             </div>
         </div>
 
-
-
-
         <div class="container p-0 mb-5 font-fm-montserrat">
             <div class="container header-filter">
                 <div class="row">
@@ -313,7 +278,7 @@
                                 <source type="image/webp"
                                     srcset="{{asset('img/logo-blog.webp')}}">
                                 <img src="{{asset('img/logo-blog.webp')}}"
-                                    alt="Logo DataCRM blog" class="img-fluid" width="600" height="23" loading="lazy">
+                                    alt="Logo DataCRM blog" class="img-fluid" width="600px" height="23px" loading="lazy">
                             </picture>
                         </a>
                     </div>
@@ -357,24 +322,24 @@
                                         </h4>
                                         <br>
                                     <div class="row">
-                                        <div class="col-xs-12 col-sm-12 col-md-12">
-                                            <div class="author-article">
-                                                <p>DataCRM</p>
-                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12 author-article">
+                                            <p class="author-article">DataCRM</p>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                                             <div>
 
+                                                <!--<img src="{{asset('img/que-es-gestion-comercial.webp')}}"
+                                                    alt="que-es-gestion-comercial" alt="que-es-gestion-comercial.webp"
+                                                    class="img-article-detail img-fluid d-block d-sm-none" width="342px"
+                                                    height="228px" />-->
+                                                
+                                                
                                                 <img src="{{asset('img/que-es-gestion-comercial.webp')}}"
                                                     alt="que-es-gestion-comercial" alt="que-es-gestion-comercial.webp"
-                                                    class="img-article-detail img-fluid d-block d-sm-none" width=342
-                                                    height=228>
-                                                <img src="{{asset('img/que-es-gestion-comercial.webp')}}"
-                                                    alt="que-es-gestion-comercial" alt="que-es-gestion-comercial.webp"
-                                                    class="img-article-detail img-fluid d-none d-md-block" width=900
-                                                    height=500>
+                                                    class="img-article-detail img-fluid d-none d-md-block" width="900px"
+                                                    height="500px" />
                                             </div>
                                         </div>
                                     </div>
@@ -850,7 +815,6 @@
                             <br>
                         </div>
                     </div>
-
                     <div class="container col-lg-4 col-12  font-sz-3 justify-content-center d-none d-lg-block sidebar "
                         id="sidebar">
                         <div class="sidebar__inner" id="sidebar__inner">
@@ -886,7 +850,7 @@
                                                     <div class="col-4">
                                                         <img src="{{asset('img/RecaptchaLogo.webp')}}"
                                                             alt="gestionar-clientes-desde-whatsapp" class="img-fluid"
-                                                            width="60" height="60" loading="lazy">
+                                                            width="60px" height="60px" loading="lazy">
                                                     </div>
                                                 </div>
                                             </div>
@@ -922,8 +886,8 @@
                                     <div
                                         class="  blog-recommended myPruebaGratisSection col-10 col-md-6 col-lg-12 col-xl-12">
                                         <img src="{{asset('img/gestionar-clientes-desde-whatsapp.webp')}}"
-                                            alt="gestionar-clientes-desde-whatsapp" class="img-fluid mt-4" width="292"
-                                            height="231" loading="lazy">
+                                            alt="gestionar-clientes-desde-whatsapp" class="img-fluid mt-4" width="292px"
+                                            height="231px" loading="lazy">
                                         <span class="text-white typ-mon typ-montserrat">
                                             <h3 class="myH2">
                                                 <b>Prueba Gratis DataCRM</b>
@@ -947,7 +911,7 @@
                                             <div class="p-2 m-1 row m-0  typ-montserrat col-xs-12 col-sm-12 col-md-12">
                                                 <div class=" font-sz-1 typ-montserrat col-12 col-xl-6">
                                                     <img src="{{asset('img/importancia_estadisticas_para_ventas.webp')}}"
-                                                        alt="temporal" class="img-fluid" width="118" height="66"
+                                                        alt="temporal" class="img-fluid" width="118px" height="66px"
                                                         loading="lazy">
                                                 </div>
                                                 <div class=" font-sz-1 typ-montserrat col-12 col-xl-6 myFontSizeSmall"
@@ -970,7 +934,7 @@
                                             <div class="p-2 m-1 row m-0  typ-montserrat col-xs-12 col-sm-12 col-md-12">
                                                 <div class=" font-sz-1 typ-montserrat col-12 col-xl-6">
                                                     <img src="{{asset('img/importancia-de-la-fuerza-de-ventas.webp')}}"
-                                                        alt="temporal" class="img-fluid" width="118" height="66"
+                                                        alt="temporal" class="img-fluid" width="118px" height="66px"
                                                         loading="lazy">
                                                 </div>
                                                 <div class=" font-sz-1 typ-montserrat col-12 col-xl-6 myFontSizeSmall"
@@ -992,7 +956,7 @@
                                             <div class="p-2 m-1 row m-0  typ-montserrat col-xs-12 col-sm-12 col-md-12">
                                                 <div class=" font-sz-1 typ-montserrat col-12 col-xl-6">
                                                     <img src="{{asset('img/responsabilidades_buen_lider.webp')}}"
-                                                        alt="temporal" class="img-fluid" width="118" height="66"
+                                                        alt="temporal" class="img-fluid" width="118px" height="66px"
                                                         loading="lazy">
                                                 </div>
                                                 <div class=" font-sz-1 typ-montserrat col-12 col-xl-6 myFontSizeSmall"
@@ -1277,7 +1241,7 @@
                                             href="https://www.datacrm.com/blog/que-es-gestion-comercial/"
                                             style=" text-decoration: none;">
                                             <img src="{{asset('img/que-es-gestion-comercial.webp')}}"
-                                                alt="temporal" class="img-fluid" width="400" height="400"
+                                                alt="temporal" class="img-fluid" width="400px" height="400px"
                                                 loading="lazy">
                                             Gestión comercial guía completa: ventajas y objetivos
                                         </a>
@@ -1290,7 +1254,7 @@
                                             href="https://www.datacrm.com/blog/crm-objetivos-tipos-estrategias/"
                                             style=" text-decoration: none;">
                                             <img src="{{asset('img/crm-objetivos-tipos-estrategias.webp')}}"
-                                                alt="temporal" class="img-fluid" width="400" height="400"
+                                                alt="temporal" class="img-fluid" width="400px" height="400px"
                                                 loading="lazy">
                                             Objetivos, Tipos y Estrategias de un CRM
                                         </a>
@@ -1303,7 +1267,7 @@
                                             href="https://www.datacrm.com/blog/beneficios-de-sincronizar-whatsapp-con-tu-crm/"
                                             style=" text-decoration: none;">
                                             <img src="{{asset('img/sincronizar_whatsapp_con_crm.webp')}}"
-                                                alt="temporal" class="img-fluid" width="400" height="400"
+                                                alt="temporal" class="img-fluid" width="400px" height="400px"
                                                 loading="lazy">
                                             Beneficios de sincronizar WhatsApp con tu CRM
                                         </a>
@@ -1366,7 +1330,7 @@
                                     data-srcset="{{asset('img/Logodata_Horizontalblanco180x58.webp')}}">
                                 <img src="{{asset('img/Logodata_Horizontalblanco180x58.png')}}"
                                     alt="DataCRM" class="img-fluid w-100 img-footer-logo lazyload" loading="lazy"
-                                    width="180" height="58">
+                                    width="180px" height="58px">
                             </picture>
                         </a>
                         <p class="typ-os-regular f-sz-s m-0 mt-4 mb-2 mb-lg-0 pb-1 pb-lg-1">
@@ -1491,7 +1455,7 @@
                                         <source type="image/webp"
                                             data-srcset="{{asset('img/app_store_125x37.png')}}">
                                         <img src="{{asset('img/app_store_125x37.webp')}}"
-                                            alt="Apple Store" width="125" height="37"
+                                            alt="Apple Store" width="125px" height="37px"
                                             class="effect-zoom mr-md-2 my-1 lazyload" loading="lazy">
                                     </picture>
                                 </a>
@@ -1503,7 +1467,7 @@
                                         <source type="image/webp"
                                             data-srcset="{{asset('img/play_store_125x37.png')}}">
                                         <img src="{{asset('img/play_store_125x37.webp')}}"
-                                            alt="Play Store" width="125" height="37" class="effect-zoom lazyload"
+                                            alt="Play Store" width="125px" height="37px" class="effect-zoom lazyload"
                                             loading="lazy">
                                     </picture>
                                 </a>
@@ -1522,7 +1486,7 @@
                                 <source type="image/webp"
                                     data-srcset="{{asset('img/Logodata_Horizontalblanco180x58.webp')}}">
                                 <img src="{{asset('img/Logodata_Horizontalblanco180x58.png')}}"
-                                    alt="Logo Data CRM" width="180" height="58"
+                                    alt="Logo Data CRM" width="180px" height="58px"
                                     class="img-fluid w-100 img-footer-logo lazyload" loading="lazy">
                             </picture>
                         </div>
@@ -1567,7 +1531,7 @@
                                 <source type="image/webp"
                                     data-srcset="{{asset('img/Logodata_Horizontalblanco180x58.webp')}}">
                                 <img src="{{asset('img/Logodata_Horizontalblanco180x58.png')}}"
-                                    alt="DataCRM" width="180" height="58"
+                                    alt="DataCRM" width="180px" height="58px"
                                     class="img-fluid w-100 img-footer-logo lazyload" loading="lazy">
                             </picture>
 
@@ -2009,7 +1973,7 @@
                                     srcset="{{asset('img/ya_tienes_una_cuenta320x287.webp')}}">
 
                                 <img src="{{asset('img/ya_tienes_una_cuenta600x539.webp')}}"
-                                    alt="Ya tienes una cuenta con DataCRM" class="img-fluid" width="300" height="269"
+                                    alt="Ya tienes una cuenta con DataCRM" class="img-fluid" width="300px" height="269px"
                                     loading="lazy">
                             </picture>
                         </div>
@@ -2257,8 +2221,21 @@
         </div>
     </div>
 
-    
-    
+    <script type='application/ld+json'>
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "WebSite",
+        "@id": "#website",
+        "url": "https:\/\/www.datacrm.com\/",
+        "name": "DATACRM",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https:\/\/www.datacrm.com\/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
     <!--JavaScript Gernerado para la prueba tecnica-->
     <script defer src="{{ asset('js/jquery.min.js') }}"></script>
 
@@ -2269,7 +2246,7 @@
     <script defer src="{{ asset('js/datacrm.js') }}" type="text/javascript"></script>
 
     <!-- Google tag (gtag.js) -->
-    <script>
+    <script defer>
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
@@ -2288,7 +2265,6 @@
     <script type="lazy" defer
         src="{{ asset('js/bdf94fe1-12bd-4f35-8989-1a189152cb58-loader.js') }}"></script>
 
-
     <script src="{{ asset('js/bdf94fe1-12bd-4f35-8989-1a189152cb58-loader_6326.js') }}" defer></script>
     <script src="{{ asset('js/popper.min.1.11.0.js') }}" defer></script>
     <script src="{{ asset('js/bootstrap.min.js') }}" defer></script>
@@ -2300,13 +2276,14 @@
     <script src="{{ asset('js/create-demo3.js') }}" defer></script>
 
     <!-- Whatsapp -->
-    <script>
+    <script defer>
     window.datacrm_whatsapp_config = {
         "mobile": "573014765478",
         "redirect_chat_whatsapp": "true",
         "empresa": "https://www.datacrm.la/datacrm/datacrm/webservice.php"
     }
     </script>
+
     <script type="lazy" src="https://integraciones.datacrm.la/datacrm/whatsapp_button/wpp_button.min.js?v=6326" defer>
     </script>
     <script src="{{ asset('js/plans.home.js') }}" defer></script>
@@ -2315,7 +2292,7 @@
     <!-- prueba mapa de calor orange -->
     <script defer src="https://tools.luckyorange.com/core/lo.js?site-id=90dbe6f8"></script>
     
-    <script>
+    <script defer>
     window.addEventListener('load', function() {
         const styleSheet = document.createElement('link');
         styleSheet.rel = 'stylesheet';
